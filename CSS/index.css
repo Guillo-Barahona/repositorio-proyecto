@@ -178,13 +178,34 @@ main .titulo {
     }
 
 /* contacto */
-    form section {
+    form {
         display: flex;
         flex-direction: column;
-        background-color: #e2c499;
-        padding: 50px;
+        background-color: #bebebeeb;
+        width: 40vw;
+        padding: 20px;
         margin: 0px;
-        justify-content: flex-start;
+        justify-self: center;
+        justify-content: center;
+        border: #000000 solid 2px;
+    }
+
+    main form div {
+        display: flex;
+        background-color: #f7f7f7 ;
+        text-align: center;
+        justify-items: center;
+        font-size: 15px;
+        padding: 5px;
+        justify-items: center;
+    }
+
+    form input {
+        background-color: #f7f7f7;
+        text-align: center;
+        justify-self: center;
+        margin-left: 15px;
+        
     }
 
 /* nosotros */
